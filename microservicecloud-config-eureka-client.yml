@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microservicecloud-config-eurea-client
+    name: microservicecloud-config-eureka-client
 eureka:
   instance:
     hostname: eureka7001.com    #eureka服务端的实例名称,单机为localhost
@@ -23,7 +23,7 @@ server:
 spring:
   profiles: test
   application:
-    name: microservicecloud-config-eurea-client
+    name: microservicecloud-config-eureka-client
 eureka:
   instance:
     hostname: eureka7001.com    #eureka服务端的实例名称,单机为localhost
